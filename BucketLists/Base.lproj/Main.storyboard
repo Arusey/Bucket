@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -81,101 +80,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9h-n9-hRY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1868.1159420289857" y="109.82142857142857"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="nvg-hW-mdx">
-            <objects>
-                <viewController id="56f-Ao-Pt1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1rw-Vr-Wf7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZ8-sw-Jkp">
-                                <rect key="frame" x="173.5" y="44" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VP8-gj-pZ9">
-                                <rect key="frame" x="20" y="432.5" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEg-O4-gvy">
-                                <rect key="frame" x="173.5" y="831" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i99-l6-LXV">
-                                <rect key="frame" x="327" y="432.5" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="OoS-L8-OxS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="OoS-L8-OxS" firstAttribute="trailing" secondItem="i99-l6-LXV" secondAttribute="trailing" constant="20" id="0sS-L3-Rtz"/>
-                            <constraint firstItem="VP8-gj-pZ9" firstAttribute="leading" secondItem="OoS-L8-OxS" secondAttribute="leading" constant="20" id="7PG-Nm-5SI"/>
-                            <constraint firstItem="zEg-O4-gvy" firstAttribute="bottom" secondItem="OoS-L8-OxS" secondAttribute="bottom" id="7cj-pQ-JJn"/>
-                            <constraint firstItem="vZ8-sw-Jkp" firstAttribute="centerX" secondItem="1rw-Vr-Wf7" secondAttribute="centerX" id="JGu-iH-J6A"/>
-                            <constraint firstItem="i99-l6-LXV" firstAttribute="centerY" secondItem="1rw-Vr-Wf7" secondAttribute="centerY" id="OBQ-mC-h9x"/>
-                            <constraint firstItem="vZ8-sw-Jkp" firstAttribute="top" secondItem="OoS-L8-OxS" secondAttribute="top" id="jP4-2Q-n89"/>
-                            <constraint firstItem="zEg-O4-gvy" firstAttribute="centerX" secondItem="1rw-Vr-Wf7" secondAttribute="centerX" id="rx2-MM-fcB"/>
-                            <constraint firstItem="VP8-gj-pZ9" firstAttribute="centerY" secondItem="1rw-Vr-Wf7" secondAttribute="centerY" id="t9V-i7-U1m"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FtD-0h-fxZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2956" y="102"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="oIW-65-lgT">
-            <objects>
-                <viewController id="VaK-z1-IUJ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dnb-7x-f4V">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CM8-ft-d7G">
-                                <rect key="frame" x="20" y="432.5" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwD-C4-1oc">
-                                <rect key="frame" x="173.5" y="831" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N18-rT-OYx">
-                                <rect key="frame" x="327" y="432.5" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpb-Zd-nGa">
-                                <rect key="frame" x="173.5" y="44" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="WU9-ek-2Ih"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="N18-rT-OYx" firstAttribute="centerY" secondItem="dnb-7x-f4V" secondAttribute="centerY" id="2XQ-C2-Jot"/>
-                            <constraint firstItem="NwD-C4-1oc" firstAttribute="bottom" secondItem="WU9-ek-2Ih" secondAttribute="bottom" id="CqV-Hs-LmH"/>
-                            <constraint firstItem="CM8-ft-d7G" firstAttribute="centerY" secondItem="dnb-7x-f4V" secondAttribute="centerY" id="Kkz-ah-2a0"/>
-                            <constraint firstItem="Mpb-Zd-nGa" firstAttribute="centerX" secondItem="dnb-7x-f4V" secondAttribute="centerX" id="L8h-KM-UEX"/>
-                            <constraint firstItem="WU9-ek-2Ih" firstAttribute="trailing" secondItem="N18-rT-OYx" secondAttribute="trailing" constant="20" id="M53-81-DAw"/>
-                            <constraint firstItem="Mpb-Zd-nGa" firstAttribute="top" secondItem="WU9-ek-2Ih" secondAttribute="top" id="YV0-9l-t8c"/>
-                            <constraint firstItem="CM8-ft-d7G" firstAttribute="leading" secondItem="WU9-ek-2Ih" secondAttribute="leading" constant="20" id="YYk-zy-sVy"/>
-                            <constraint firstItem="N18-rT-OYx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="CM8-ft-d7G" secondAttribute="trailing" constant="8" symbolic="YES" id="k6Q-Ke-HGy"/>
-                            <constraint firstItem="NwD-C4-1oc" firstAttribute="centerX" secondItem="dnb-7x-f4V" secondAttribute="centerX" id="lme-z3-37e"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JLu-Fl-G6K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3813" y="92"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XtV-h9-cvj">

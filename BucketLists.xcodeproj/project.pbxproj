@@ -18,6 +18,7 @@
 		4E009FDB270ED9DF00F3DAE8 /* BucketListsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E009FDA270ED9DF00F3DAE8 /* BucketListsUITestsLaunchTests.swift */; };
 		4E009FE8270EE28100F3DAE8 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E009FE7270EE28100F3DAE8 /* AddItemTableViewController.swift */; };
 		4E009FEA270EE9B700F3DAE8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E009FE9270EE9B700F3DAE8 /* CustomTableViewCell.swift */; };
+		4EC1547F271420640005A3CE /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EC1547D271420640005A3CE /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4E009FDA270ED9DF00F3DAE8 /* BucketListsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4E009FE7270EE28100F3DAE8 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
 		4E009FE9270EE9B700F3DAE8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		4EC1547E271420640005A3CE /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4E009FC0270ED9DF00F3DAE8 /* Assets.xcassets */,
 				4E009FC2270ED9DF00F3DAE8 /* LaunchScreen.storyboard */,
 				4E009FC5270ED9DF00F3DAE8 /* Info.plist */,
+				4EC1547D271420640005A3CE /* CoreData.xcdatamodeld */,
 			);
 			path = BucketLists;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				4E009FE8270EE28100F3DAE8 /* AddItemTableViewController.swift in Sources */,
 				4E009FEA270EE9B700F3DAE8 /* CustomTableViewCell.swift in Sources */,
+				4EC1547F271420640005A3CE /* CoreData.xcdatamodeld in Sources */,
 				4E009FBC270ED9DE00F3DAE8 /* BucketListViewController.swift in Sources */,
 				4E009FB8270ED9DE00F3DAE8 /* AppDelegate.swift in Sources */,
 				4E009FBA270ED9DE00F3DAE8 /* SceneDelegate.swift in Sources */,
@@ -632,6 +636,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4EC1547D271420640005A3CE /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EC1547E271420640005A3CE /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 4EC1547E271420640005A3CE /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4E009FAC270ED9DE00F3DAE8 /* Project object */;
 }
